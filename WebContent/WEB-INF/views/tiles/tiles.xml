@@ -13,16 +13,16 @@
 		<put-attribute name="footer" value="/WEB-INF/views/tiles/template/defaultFooter.jsp"></put-attribute>
 	</definition>
 	
-	<!-- Home Page / Index -->
-	<definition name="home" extends="base-definition">
+	<!-- Index -->
+	<definition name="index" extends="base-definition">
 		<put-attribute name="title" value="Welcome to index" />
 		<put-attribute name="body" value="/WEB-INF/views/pages/index.jsp" />
 	</definition>
 	
 	<!-- Test Page -->
-	<definition name="info" extends="base-definition">
+	<definition name="test" extends="base-definition">
 		<put-attribute name="title" value="Info" />
-		<put-attribute name="body" value="/WEB-INF/views/pages/info.jsp" />
+		<put-attribute name="body" value="/WEB-INF/views/pages/test.jsp" />
 	</definition>
 	
 	

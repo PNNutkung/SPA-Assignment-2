@@ -11,12 +11,12 @@ public class AppController {
 	
 	@RequestMapping(value = { "/"}, method = RequestMethod.GET)
 	public String homePage(ModelMap model) {
-		return "home";
+		return "index";
 	}
 	
-	@RequestMapping(value = { "/info"}, method = RequestMethod.GET)
+	@RequestMapping(value = { "/test"}, method = RequestMethod.GET)
 	public String infoPage(ModelMap model) {
-		return "info";
+		return "test";
 	}
 	
 }
