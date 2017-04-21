@@ -15,14 +15,14 @@
 	
 	<!-- Home Page / Index -->
 	<definition name="home" extends="base-definition">
-		<put-attribute name="title" value="Welcome to index"></put-attribute>
-		<put-attribute name="body" value="/WEB-INF/views/pages/index.jsp"></put-attribute>
+		<put-attribute name="title" value="Welcome to index" />
+		<put-attribute name="body" value="/WEB-INF/views/pages/index.jsp" />
 	</definition>
 	
 	<!-- Test Page -->
-	<definition name="test" extends="base-definition">
-		<put-attribute name="title" value="Welcome to test"></put-attribute>
-		<put-attribute name="body" value="/WEB-INF/views/pages/test.jsp"></put-attribute>
+	<definition name="info" extends="base-definition">
+		<put-attribute name="title" value="Info" />
+		<put-attribute name="body" value="/WEB-INF/views/pages/info.jsp" />
 	</definition>
 	
 	
