@@ -19,10 +19,19 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<style>
+p {
+	text-align: justify;
+}
+
+.header, .footer {
+	padding: 20px;
+}
+</style>
 </head>
 <body>
-
-	<header id="header">
+	<header class="header">
 		<tiles:insertAttribute name="header" />
 	</header>
 	<section id="sidemenu">
@@ -32,7 +41,7 @@
 	<section id="site-content" class="container-fluid">
 		<tiles:insertAttribute name="body" />
 	</section>
-	<footer id="footer">
+	<footer class="footer">
 		<tiles:insertAttribute name="footer" />
 	</footer>
 </body>
